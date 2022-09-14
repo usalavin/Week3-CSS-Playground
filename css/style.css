@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Raleway:ital,wght@1,200&display=swap');
+
+body {
+    background-color: rgb(178, 202, 224);
+}
+
+.heading {
+    text-align: center;
+}
+
+.playground-heading{
+    color: crimson;
+    font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+}
+
+.main {
+    border: 3px solid grey; 
+    width: 55%; 
+    margin: 1rem auto;
+}
+
+.main div {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 2rem auto;
+}
+
+#red {
+    border-color: rgb(236, 37, 220);
+}
+
+#yellow {
+    border-color: rgb(110, 27, 219);
+}
+
+#green {
+    border-color: rgb(209, 240, 35);
+}
+.footer {
+    text-align: center;
+    font-family: 'Ms Madi', cursive;
+    font-size: 2rem;
+}
